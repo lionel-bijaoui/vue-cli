@@ -1,4 +1,4 @@
-// http://nightwatchjs.org/gettingstarted#settings-file
+// http://nightwatchjs.org/gettingstarted/#settings-file
 
 const deepmerge = require('deepmerge')
 const userOptions = JSON.parse(process.env.VUE_NIGHTWATCH_USER_OPTIONS || '{}')
